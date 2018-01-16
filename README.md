@@ -4,7 +4,7 @@
 
 This repository contains all data and Jupyter notebooks for the tax-credit project, a standardized and extensible evaluation framework for assessing short-read taxonomic classifiers.
 
-To view static versions of the reports , [start here](https://github.com/caporaso-lab/tax-credit/blob/master/ipynb/Index.ipynb).
+To view static versions of the reports, [start here](https://github.com/caporaso-lab/tax-credit-data/blob/master/ipynb/Index.ipynb).
 
 Environment
 -----------------
@@ -21,7 +21,7 @@ The tax-credit python 3 package is hosted in the [tax-credit-code repository](ht
 
 ```
 git clone https://github.com/gregcaporaso/tax-credit-code.git
-cd tax-credit/
+cd tax-credit-code
 pip install .
 ```
 
