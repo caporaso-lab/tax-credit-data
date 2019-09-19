@@ -17,15 +17,26 @@ An example of how to load different environments to support other methods can be
 
 Setup and install
 -----------------
+To clone this repository:
+```
+git clone https://github.com/caporaso-lab/tax-credit-data.git
+```
+
 The tax-credit python 3 package is hosted in the [tax-credit-code repository](https://github.com/caporaso-lab/tax-credit-code).
 
 ```
-git clone https://github.com/gregcaporaso/tax-credit-code.git
+git clone https://github.com/caporaso-lab/tax-credit-code.git
 cd tax-credit-code
 pip install .
 ```
 
-To extend the classification results you will need reference data sets:
+OR
+
+```
+pip install https://github.com/caporaso-lab/tax-credit-code/archive/master.zip
+```
+
+To extend the 16S/ITS classification results you will need reference data sets:
 
 ```
 wget https://unite.ut.ee/sh_files/sh_qiime_release_20.11.2016.zip
@@ -48,6 +59,6 @@ The notebooks menu should open in your browser. From the main index, you can fol
 Citing
 ------
 
-A publication is on its way! For now, if you use any of the data or code included in this repository, please cite:
+If you use any of the data or code included in this repository, please cite:
 
-Bokulich NA, Kaehler BD, Rideout JR, Dillon M, Bolyen E, Knight R, Huttley GA, Caporaso JG. (2017) Optimizing taxonomic classification of marker gene sequences. PeerJ Preprints 5:e3208v1 https://doi.org/10.7287/peerj.preprints.3208v1
+Bokulich NA, Kaehler BD, Rideout JR, Dillon M, Bolyen E, Knight R, Huttley GA, Caporaso JG. (2017) Optimizing taxonomic classification of marker gene sequences with QIIME 2's q2-feature-classifier. Microbiome 6:90 https://doi.org/10.1186/s40168-018-0470-z
